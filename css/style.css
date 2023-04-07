@@ -1,0 +1,131 @@
+body {
+    max-width: 1400px;
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+}
+
+#container {
+    background-color: #C80000;
+}
+
+#header {
+    text-align: left;
+    color: #ffffff;
+}
+
+.shop {
+    font-size: 70px;
+    padding: 0.2em 0 0.4em 0.2em;
+}
+
+.subtitle {
+    font-size: 25px;
+    font-weight: 350;
+}
+
+#maintitle {
+    background-color: #666666;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 100;
+    padding: 0.3em 1em 0.4em 1em;
+}
+
+.background {
+    max-width: 100%;
+}
+
+.brand {
+    font-style: italic;
+}
+
+.figurines {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+}
+
+.card {
+    margin: 1rem;
+    border: 1px solid #666666;
+    min-width: 10%;
+    max-width: 20%;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.collection {
+    text-align: left;
+    text-transform: uppercase;
+    color:#666666;
+    border-bottom: 2px solid #a19999;
+    margin: 0 1rem 0 1rem; 
+    padding-bottom: 0.1rem;
+    font-size: 12px;
+}
+
+.name {
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0.3em 1em 0.4em 1em;
+}
+
+.description {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0.3em 1em 0.4em 1em;
+}
+
+.buy {
+    color: #ffffff;
+    background-color: #C80000;
+    padding: 0.3em 1em 0.4em 1em;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.badprice {
+    text-decoration: line-through;
+    font-weight:lighter;
+    font-size: smaller;
+}
+
+.basket {
+    font-size: 17px;
+    font-weight:lighter;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    
+}
+
+#footer {
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight:lighter;
+    padding: 1em;
+}
